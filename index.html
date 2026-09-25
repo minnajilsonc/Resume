@@ -1,1 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minna Jilson | Chemistry Student</title>
+<style>
+  :root {
+    --ink:#1f2937; --muted:#64748b; --accent:#2457a6; --soft:#eef4ff;
+    --line:#dbe3ef; --paper:#ffffff; --bg:#f4f7fb;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:Inter,Segoe UI,Arial,sans-serif; line-height:1.55;
+  }
+  .page {
+    max-width:1000px; margin:36px auto; background:var(--paper);
+    box-shadow:0 12px 40px rgba(30,50,80,.10); border-radius:18px; overflow:hidden;
+  }
+  header {
+    padding:42px 52px; background:linear-gradient(135deg,#173b70,#2d65b3);
+    color:white; display:flex; justify-content:space-between; gap:30px; align-items:flex-end;
+  }
+  h1 { margin:0 0 5px; font-size:42px; letter-spacing:-1px; }
+  .role { font-size:18px; opacity:.9; }
+  .contact { text-align:right; font-size:14px; line-height:1.9; }
+  main { padding:38px 52px; }
+  section { margin-bottom:30px; }
+  h2 {
+    margin:0 0 13px; font-size:15px; text-transform:uppercase; letter-spacing:2px;
+    color:var(--accent); border-bottom:2px solid var(--line); padding-bottom:8px;
+  }
+  p { margin:7px 0; }
+  .summary { font-size:16px; color:#334155; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:22px 45px; }
+  .item { margin-bottom:15px; }
+  .item-title { font-weight:700; }
+  .meta { color:var(--muted); font-size:14px; }
+  ul { margin:7px 0 0 20px; padding:0; }
+  li { margin:4px 0; }
+  .chips { display:flex; flex-wrap:wrap; gap:9px; }
+  .chip {
+    background:var(--soft); color:#214c91; padding:7px 12px;
+    border-radius:999px; font-size:14px; font-weight:600;
+  }
+  .project {
+    background:#f8fafc; border-left:4px solid var(--accent);
+    padding:16px 18px; border-radius:8px;
+  }
+  footer { padding:18px 52px; background:#f8fafc; color:var(--muted); font-size:12px; }
+  @media(max-width:700px) {
+    .page { margin:0; border-radius:0; }
+    header { padding:30px 24px; display:block; }
+    h1 { font-size:34px; }
+    .contact { text-align:left; margin-top:14px; }
+    main { padding:28px 24px; }
+    .grid { grid-template-columns:1fr; gap:0; }
+    footer { padding:18px 24px; }
+  }
+  @media print {
+    body { background:white; }
+    .page { margin:0; box-shadow:none; border-radius:0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div>
+      <h1>Minna Jilson</h1>
+      <div class="role">B.Sc. Chemistry Student</div>
+    </div>
+    <div class="contact">
+      📞 +91 9037494833<br>
+      ✉️ minnajilsonc@gmail.com
+    </div>
+  </header>
 
+  <main>
+    <section>
+      <h2>Profile Summary</h2>
+      <p class="summary">
+        Motivated and enthusiastic Chemistry student with skills in organization and coordination,
+        and active involvement in social and college activities. Enjoys learning new things,
+        working with others, and applying dedication and teamwork in practical situations.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="grid">
+        <div class="item">
+          <div class="item-title">Bachelor's Degree in Chemistry</div>
+          <div class="meta">Vimala College Autonomous, Thrissur · 2023–2026</div>
+        </div>
+        <div class="item">
+          <div class="item-title">Higher Secondary Education</div>
+          <div class="meta">St. Joseph's HSS, Pavaratty, Thrissur · 2023</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Academic Project</h2>
+      <div class="project">
+        <div class="item-title">Activation of TiO₂ by Modification with Silyl Amines for Covalent Linking of Molecular Sensitizer in Artificial Photosynthesis System</div>
+        <div class="meta">Cochin University of Science and Technology · Submitted to University of Calicut</div>
+        <div class="meta">Project Period: 7 April 2025 – 7 May 2025</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Industry & Laboratory Exposure</h2>
+      <div class="grid">
+        <div class="item">
+          <div class="item-title">Industrial Familiarization Training</div>
+          <div class="meta">Central Institute of Petrochemicals Engineering & Technology (CIPET)</div>
+        </div>
+        <div class="item">
+          <div class="item-title">Laboratory Training</div>
+          <div class="meta">Cochin University of Science & Technology (CUSAT)</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <div class="chips">
+        <span class="chip">Rajyapuraskar Certification (Scouts & Guides)</span>
+        <span class="chip">Intellectual Property Rights</span>
+        <span class="chip">Frontiers in Chemical Sciences</span>
+        <span class="chip">Fundamentals of Polymer Synthesis & Characterization Techniques</span>
+        <span class="chip">NMR Spectroscopy & Advanced Material</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="chips">
+        <span class="chip">Microsoft Office</span>
+        <span class="chip">Google Workspace</span>
+        <span class="chip">Social Media Management</span>
+        <span class="chip">Typing Skills</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Abilities & Activities</h2>
+      <ul>
+        <li>Conducted Sr. Canisia General Quiz Competition at college.</li>
+        <li>Conducted Chem Fest 2024–25 at college.</li>
+        <li>Leadership</li>
+        <li>Teamwork Skills</li>
+        <li>Adaptability</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <div class="chips">
+        <span class="chip">Travelling</span>
+        <span class="chip">Video Editing</span>
+        <span class="chip">Art Works</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Personal Information</h2>
+      <div class="grid">
+        <div><strong>Nationality:</strong> Indian</div>
+        <div><strong>Gender:</strong> Female</div>
+        <div><strong>Date of Birth:</strong> 14 September 2005</div>
+        <div><strong>Languages:</strong> English, Malayalam</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Professional online resume · Minna Jilson
+  </footer>
+</div>
+</body>
+</html>
